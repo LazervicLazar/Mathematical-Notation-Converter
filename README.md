@@ -1,12 +1,17 @@
-Usage
-Run the compiled program to access the notation conversion tool. You'll be prompted to select the type of conversion and enter an expression. The program will then convert the expression and display the result.
+Mathematical-Notation-Converter
+## Introduction
 
-Supported Conversions
-The Notation Converter supports the following conversions:
+Notation conversion is a common task in computer science and mathematics, often used in the evaluation of expressions and parsing. This C++ program provides an easy-to-use interface for converting expressions between different notations. Whether you need to convert a postfix expression to infix, prefix to postfix, or any other combination, this tool has you covered.
 
-Postfix to Infix
-Postfix to Prefix
-Infix to Postfix
-Infix to Prefix
-Prefix to Infix
-Prefix to Postfix# Mathematical-Notation-Converter
+## Features
+
+- Supports conversion between postfix, infix, and prefix notations.
+- Utilizes a deque (doubly linked list) data structure for efficient notation conversions.
+- Error handling for invalid characters.
+- Clear and user-friendly command-line interface.
+
+## Requirements
+
+- C++ compiler (e.g., g++)
+- C++11 or later
+- Terminal or command prompt
